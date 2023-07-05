@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		99C076272A52E76400BD3755 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C076262A52E76400BD3755 /* AppDelegate.swift */; };
 		99C076292A52E76400BD3755 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C076282A52E76400BD3755 /* SceneDelegate.swift */; };
-		99C0762B2A52E76400BD3755 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0762A2A52E76400BD3755 /* ViewController.swift */; };
-		99C0762E2A52E76400BD3755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C0762C2A52E76400BD3755 /* Main.storyboard */; };
+		99C0762B2A52E76400BD3755 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0762A2A52E76400BD3755 /* TabBarController.swift */; };
 		99C076302A52E76600BD3755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C0762F2A52E76600BD3755 /* Assets.xcassets */; };
 		99C076332A52E76600BD3755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99C076312A52E76600BD3755 /* LaunchScreen.storyboard */; };
+		99C076422A52EEE700BD3755 /* TabBarController + setUpControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C076412A52EEE700BD3755 /* TabBarController + setUpControllers.swift */; };
+		99C076442A52EF2A00BD3755 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C076432A52EF2A00BD3755 /* FirstViewController.swift */; };
+		99C076462A52EF3500BD3755 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C076452A52EF3500BD3755 /* SecondViewController.swift */; };
+		99C076482A52F30000BD3755 /* TabBarController + setUpTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C076472A52F30000BD3755 /* TabBarController + setUpTabBar.swift */; };
+		99C0764E2A52FBE600BD3755 /* FirstViewController + setUpContainerStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0764D2A52FBE600BD3755 /* FirstViewController + setUpContainerStackView.swift */; };
+		99C076502A5310F700BD3755 /* FirstViewController + setUpLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0764F2A5310F700BD3755 /* FirstViewController + setUpLabels.swift */; };
+		99C076522A5313B200BD3755 /* FirstViewController + setUpButtonsStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C076512A5313B200BD3755 /* FirstViewController + setUpButtonsStack.swift */; };
+		99C076542A53142C00BD3755 /* FirstViewController + setUpButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C076532A53142C00BD3755 /* FirstViewController + setUpButtons.swift */; };
+		99C0765A2A53283700BD3755 /* SecondViewController + setUpLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C076592A53283700BD3755 /* SecondViewController + setUpLabel.swift */; };
+		99C0765C2A53380D00BD3755 /* SecondViewController + notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0765B2A53380D00BD3755 /* SecondViewController + notifications.swift */; };
+		99C0765E2A53388900BD3755 /* SecondViewController + setUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0765D2A53388900BD3755 /* SecondViewController + setUpButton.swift */; };
+		99C076602A533D4B00BD3755 /* FirstViewController + subscribeToNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C0765F2A533D4B00BD3755 /* FirstViewController + subscribeToNotificationCenter.swift */; };
+		99C076632A549F5700BD3755 /* Extension + Notification.Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C076622A549F5700BD3755 /* Extension + Notification.Name.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		99C076232A52E76400BD3755 /* NotificationCenterTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationCenterTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C076262A52E76400BD3755 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99C076282A52E76400BD3755 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		99C0762A2A52E76400BD3755 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		99C0762D2A52E76400BD3755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99C0762A2A52E76400BD3755 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		99C0762F2A52E76600BD3755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99C076322A52E76600BD3755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99C076342A52E76600BD3755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99C076412A52EEE700BD3755 /* TabBarController + setUpControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TabBarController + setUpControllers.swift"; sourceTree = "<group>"; };
+		99C076432A52EF2A00BD3755 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		99C076452A52EF3500BD3755 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		99C076472A52F30000BD3755 /* TabBarController + setUpTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TabBarController + setUpTabBar.swift"; sourceTree = "<group>"; };
+		99C0764D2A52FBE600BD3755 /* FirstViewController + setUpContainerStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FirstViewController + setUpContainerStackView.swift"; sourceTree = "<group>"; };
+		99C0764F2A5310F700BD3755 /* FirstViewController + setUpLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FirstViewController + setUpLabels.swift"; sourceTree = "<group>"; };
+		99C076512A5313B200BD3755 /* FirstViewController + setUpButtonsStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FirstViewController + setUpButtonsStack.swift"; sourceTree = "<group>"; };
+		99C076532A53142C00BD3755 /* FirstViewController + setUpButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FirstViewController + setUpButtons.swift"; sourceTree = "<group>"; };
+		99C076592A53283700BD3755 /* SecondViewController + setUpLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SecondViewController + setUpLabel.swift"; sourceTree = "<group>"; };
+		99C0765B2A53380D00BD3755 /* SecondViewController + notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SecondViewController + notifications.swift"; sourceTree = "<group>"; };
+		99C0765D2A53388900BD3755 /* SecondViewController + setUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SecondViewController + setUpButton.swift"; sourceTree = "<group>"; };
+		99C0765F2A533D4B00BD3755 /* FirstViewController + subscribeToNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FirstViewController + subscribeToNotificationCenter.swift"; sourceTree = "<group>"; };
+		99C076622A549F5700BD3755 /* Extension + Notification.Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Notification.Name.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,123 @@
 		99C076252A52E76400BD3755 /* NotificationCenterTest */ = {
 			isa = PBXGroup;
 			children = (
-				99C076262A52E76400BD3755 /* AppDelegate.swift */,
-				99C076282A52E76400BD3755 /* SceneDelegate.swift */,
-				99C0762A2A52E76400BD3755 /* ViewController.swift */,
-				99C0762C2A52E76400BD3755 /* Main.storyboard */,
-				99C0762F2A52E76600BD3755 /* Assets.xcassets */,
-				99C076312A52E76600BD3755 /* LaunchScreen.storyboard */,
+				99C076612A549F3400BD3755 /* Extensions */,
+				99C0763C2A52EE8400BD3755 /* TabBarContoller */,
+				99C0763A2A52EE6200BD3755 /* System Generated */,
+				99C0763B2A52EE7000BD3755 /* Assets */,
 				99C076342A52E76600BD3755 /* Info.plist */,
 			);
 			path = NotificationCenterTest;
+			sourceTree = "<group>";
+		};
+		99C0763A2A52EE6200BD3755 /* System Generated */ = {
+			isa = PBXGroup;
+			children = (
+				99C076262A52E76400BD3755 /* AppDelegate.swift */,
+				99C076282A52E76400BD3755 /* SceneDelegate.swift */,
+			);
+			path = "System Generated";
+			sourceTree = "<group>";
+		};
+		99C0763B2A52EE7000BD3755 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				99C0762F2A52E76600BD3755 /* Assets.xcassets */,
+				99C076312A52E76600BD3755 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		99C0763C2A52EE8400BD3755 /* TabBarContoller */ = {
+			isa = PBXGroup;
+			children = (
+				99C076402A52EECE00BD3755 /* View */,
+				99C0763F2A52EEC500BD3755 /* Controller */,
+				99C0763E2A52EEB100BD3755 /* SecondViewController */,
+				99C0763D2A52EEA200BD3755 /* FirstViewController */,
+			);
+			path = TabBarContoller;
+			sourceTree = "<group>";
+		};
+		99C0763D2A52EEA200BD3755 /* FirstViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99C0764A2A52FA4900BD3755 /* View */,
+				99C076492A52FA4100BD3755 /* Controller */,
+			);
+			path = FirstViewController;
+			sourceTree = "<group>";
+		};
+		99C0763E2A52EEB100BD3755 /* SecondViewController */ = {
+			isa = PBXGroup;
+			children = (
+				99C0764C2A52FBCA00BD3755 /* View */,
+				99C0764B2A52FBC200BD3755 /* Controller */,
+			);
+			path = SecondViewController;
+			sourceTree = "<group>";
+		};
+		99C0763F2A52EEC500BD3755 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99C0762A2A52E76400BD3755 /* TabBarController.swift */,
+				99C076412A52EEE700BD3755 /* TabBarController + setUpControllers.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99C076402A52EECE00BD3755 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99C076472A52F30000BD3755 /* TabBarController + setUpTabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99C076492A52FA4100BD3755 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99C076432A52EF2A00BD3755 /* FirstViewController.swift */,
+				99C0765F2A533D4B00BD3755 /* FirstViewController + subscribeToNotificationCenter.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99C0764A2A52FA4900BD3755 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99C0764D2A52FBE600BD3755 /* FirstViewController + setUpContainerStackView.swift */,
+				99C0764F2A5310F700BD3755 /* FirstViewController + setUpLabels.swift */,
+				99C076512A5313B200BD3755 /* FirstViewController + setUpButtonsStack.swift */,
+				99C076532A53142C00BD3755 /* FirstViewController + setUpButtons.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99C0764B2A52FBC200BD3755 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				99C076452A52EF3500BD3755 /* SecondViewController.swift */,
+				99C0765B2A53380D00BD3755 /* SecondViewController + notifications.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		99C0764C2A52FBCA00BD3755 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99C076592A53283700BD3755 /* SecondViewController + setUpLabel.swift */,
+				99C0765D2A53388900BD3755 /* SecondViewController + setUpButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99C076612A549F3400BD3755 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				99C076622A549F5700BD3755 /* Extension + Notification.Name.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +259,6 @@
 			files = (
 				99C076332A52E76600BD3755 /* LaunchScreen.storyboard in Resources */,
 				99C076302A52E76600BD3755 /* Assets.xcassets in Resources */,
-				99C0762E2A52E76400BD3755 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +269,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99C0762B2A52E76400BD3755 /* ViewController.swift in Sources */,
+				99C076482A52F30000BD3755 /* TabBarController + setUpTabBar.swift in Sources */,
+				99C076462A52EF3500BD3755 /* SecondViewController.swift in Sources */,
+				99C076442A52EF2A00BD3755 /* FirstViewController.swift in Sources */,
+				99C0762B2A52E76400BD3755 /* TabBarController.swift in Sources */,
+				99C076522A5313B200BD3755 /* FirstViewController + setUpButtonsStack.swift in Sources */,
+				99C0765C2A53380D00BD3755 /* SecondViewController + notifications.swift in Sources */,
+				99C0765A2A53283700BD3755 /* SecondViewController + setUpLabel.swift in Sources */,
 				99C076272A52E76400BD3755 /* AppDelegate.swift in Sources */,
+				99C0765E2A53388900BD3755 /* SecondViewController + setUpButton.swift in Sources */,
+				99C076602A533D4B00BD3755 /* FirstViewController + subscribeToNotificationCenter.swift in Sources */,
+				99C0764E2A52FBE600BD3755 /* FirstViewController + setUpContainerStackView.swift in Sources */,
+				99C076542A53142C00BD3755 /* FirstViewController + setUpButtons.swift in Sources */,
+				99C076632A549F5700BD3755 /* Extension + Notification.Name.swift in Sources */,
 				99C076292A52E76400BD3755 /* SceneDelegate.swift in Sources */,
+				99C076422A52EEE700BD3755 /* TabBarController + setUpControllers.swift in Sources */,
+				99C076502A5310F700BD3755 /* FirstViewController + setUpLabels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		99C0762C2A52E76400BD3755 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				99C0762D2A52E76400BD3755 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		99C076312A52E76600BD3755 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +428,7 @@
 				INFOPLIST_FILE = NotificationCenterTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +436,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon-suarez.NotificationCenterTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,9 +457,7 @@
 				INFOPLIST_FILE = NotificationCenterTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,6 +465,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon-suarez.NotificationCenterTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
